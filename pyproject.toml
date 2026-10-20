@@ -1,0 +1,52 @@
+[project]
+name = "africa-event-radar"
+version = "0.1.0"
+description = "Find Python conferences and communities in your country and its neighbours, via SerpApi's MCP server."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx2>=2.10.0",
+    "mcp>=2.3.0",
+    "python-dotenv>=1.2.4",
+    "rich>=15.0.0",
+    "typer>=0.27.3",
+]
+
+[project.scripts]
+eventradar = "eventradar.cli:app"
+
+[project.optional-dependencies]
+web = [
+    "fastapi>=0.115.0",
+    "markdown-it-py>=3.0.0",
+    "uvicorn>=0.30.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.15,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "eventradar"
+
+[dependency-groups]
+dev = [
+    "africa-event-radar[web]",
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "ruff>=0.6.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["eventradar", "conftest"]

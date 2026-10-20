@@ -1,0 +1,66 @@
+{
+  "search_metadata": {"status": "Success"},
+  "events_results": [
+    {
+      "title": "Africa Tech Example",
+      "date": {"start_date": "Nov 17", "when": "Nov 17"},
+      "address": ["Example Convention Centre", "Cape Town, South Africa"],
+      "venue": {"name": "Example Convention Centre"},
+      "type": "Technology trade show",
+      "ticket_info": [
+        {"source": "tickets.example.com", "link": "https://tickets.example.com/africa-tech", "link_type": "tickets"}
+      ],
+      "event_location_map": {"link": "https://maps.google.com/?cid=111"}
+    },
+    {
+      "title": "Africa Tech Example",
+      "date": {"start_date": "Nov 16", "when": "Nov 16, 12:00 PM"},
+      "address": ["Example Convention Centre", "Cape Town, South Africa"],
+      "venue": {"name": "Example Convention Centre"},
+      "type": "Technology trade show",
+      "ticket_info": [
+        {"source": "tickets.example.com", "link": "https://tickets.example.com/africa-tech", "link_type": "tickets"}
+      ]
+    },
+    {
+      "title": "DevFest Example City",
+      "date": {"start_date": "Nov 21", "when": "Nov 21, 8:30 AM"},
+      "address": ["The Example Hall", "Sandton, South Africa"],
+      "venue": {"name": "The Example Hall"},
+      "type": "Technology conference",
+      "ticket_info": [
+        {"source": "tickets.example.com", "link": "https://tickets.example.com/devfest", "link_type": "tickets"},
+        {"source": "devfest.example.com", "link": "https://devfest.example.com/", "link_type": "more info"}
+      ]
+    },
+    {
+      "title": "PyData Example Meetup",
+      "date": {"start_date": "Oct 28", "when": "Oct 28, 6:00 PM"},
+      "address": ["Example Hub", "Johannesburg, South Africa"],
+      "type": "Meetup",
+      "ticket_info": [
+        {"source": "meetup.example.com", "link": "https://meetup.example.com/pydata", "link_type": "more info"}
+      ]
+    },
+    {
+      "title": "Old Tech Breakfast",
+      "date": {"start_date": "Oct 15", "when": "Oct 15, 7:30 AM"},
+      "address": ["Durban, South Africa"],
+      "type": "Networking event",
+      "ticket_info": [
+        {"source": "tickets.example.com", "link": "https://tickets.example.com/breakfast", "link_type": "tickets"}
+      ]
+    },
+    {
+      "title": "TechCon Example",
+      "date": {"start_date": "Mar 3", "when": "Mar 3, 8:00 AM"},
+      "address": ["Example Aquarium", "Cape Town, South Africa"],
+      "type": "Technology conference",
+      "event_location_map": {"link": "https://maps.google.com/?cid=222"}
+    },
+    {
+      "title": "Mystery Tech Gathering",
+      "address": ["Pretoria, South Africa"]
+    }
+  ]
+}

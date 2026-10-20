@@ -1,0 +1,29 @@
+{
+  "search_metadata": {"status": "Success"},
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "PyCon Africa - the pan-African Python conference",
+      "link": "https://pyconafrica.example.org/",
+      "snippet": "Join Pythonistas from across Africa for talks, sprints and community."
+    },
+    {
+      "position": 2,
+      "title": "Python Mozambique community",
+      "link": "https://python.example.mz/",
+      "snippet": "Meetups and workshops in Maputo."
+    },
+    {
+      "position": 3,
+      "title": "Visit Zimbabwe: a travel guide",
+      "link": "https://travel.example.com/zimbabwe",
+      "snippet": "Victoria Falls, safaris and more."
+    },
+    {
+      "position": 4,
+      "title": "PyData Example City",
+      "link": "https://pydata.example.org/city",
+      "snippet": "A PyData chapter for data people in Maputo."
+    }
+  ]
+}
